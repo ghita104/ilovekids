@@ -1,0 +1,79 @@
+body {
+    background-color: lavenderblush;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    color:#f4f4f4;
+    background-color: palevioletred;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+img {
+    width: 500px;
+    margin: 20px auto;
+    display: block;
+}
+
+.content {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.biography {
+    background-color:#fff;
+    border-radius: 7px;
+    padding: 20px;
+    box-shadow: 2px 5px 10px rgba(0 0 0 0);
+    margin-bottom: 20px;
+}
+
+.biography h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: palevioletred;
+}
+
+.achievements {
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 20px;
+    box-shadow: 2px 5px 10px rgba(0 0 0 0);
+}
+
+.achievements h2 {
+    color: palevioletred;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.achievements ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.achievements li::before {
+    content:"🌸 ";
+    margin-right: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 8px 10px;
+    background-color: palevioletred;
+    color: #fff;
+    position:sticky;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+    font-size: 14px;
+}
